@@ -303,3 +303,5 @@ merge 1:1 unique_childid wave using "$cleandta/parent_aspirations.dta"
 drop _merge
 
 save "$cleandta/panel_childlevel_blelr2.dta", replace
+
+exit
